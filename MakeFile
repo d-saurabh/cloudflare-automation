@@ -1,0 +1,11 @@
+.PHONY: install test clean
+
+install:
+    poetry install
+
+test:
+    poetry run pytest
+
+clean:
+    find . -name '*.pyc' -delete
+    find . -name '__pycache__' -delete
