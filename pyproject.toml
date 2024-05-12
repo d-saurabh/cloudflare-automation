@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "pulumi-cloudflare"
+name = "cloudflare-automation"
 version = "0.1.0"
 description = ""
 authors = ["d-saurabh <saurabhdeshpande49@gmail.com>"]
@@ -7,6 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+pulumi = "^3.115.2"
 
 
 [build-system]
